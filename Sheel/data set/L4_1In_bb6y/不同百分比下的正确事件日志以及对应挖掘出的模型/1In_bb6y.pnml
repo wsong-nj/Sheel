@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>1In_bb6y.pnml</text>
+    </name>
+    <page id="n0">
+      <place id="P27"/>
+      <place id="P28"/>
+      <place id="P29"/>
+      <place id="P30"/>
+      <place id="P31"/>
+      <place id="P32"/>
+      <place id="P33"/>
+      <place id="P34"/>
+      <place id="P35"/>
+      <place id="P36"/>
+      <place id="P37"/>
+      <place id="P40"/>
+      <place id="P41"/>
+      <place id="P42"/>
+      <place id="P43"/>
+      <place id="P44"/>
+      <place id="pend"/>
+      <place id="place_12"/>
+      <place id="place_17"/>
+      <place id="place_2"/>
+      <place id="place_21"/>
+      <place id="place_25"/>
+      <place id="place_28"/>
+      <place id="place_3"/>
+      <place id="place_30"/>
+      <place id="place_32"/>
+      <place id="place_33"/>
+      <place id="place_34"/>
+      <place id="place_35"/>
+      <place id="place_37"/>
+      <place id="place_39"/>
+      <place id="place_40"/>
+      <place id="place_41"/>
+      <place id="place_42"/>
+      <place id="place_44"/>
+      <place id="place_47"/>
+      <place id="place_5"/>
+      <place id="place_54"/>
+      <place id="place_56"/>
+      <place id="place_7"/>
+      <place id="place_8"/>
+      <place id="pstart">
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <transition id="trans_0"/>
+      <transition id="trans_1"/>
+      <transition id="trans_10"/>
+      <transition id="trans_11"/>
+      <transition id="trans_12"/>
+      <transition id="trans_13"/>
+      <transition id="trans_14"/>
+      <transition id="trans_15"/>
+      <transition id="trans_16"/>
+      <transition id="trans_17"/>
+      <transition id="trans_18"/>
+      <transition id="trans_19"/>
+      <transition id="trans_2"/>
+      <transition id="trans_20"/>
+      <transition id="trans_21"/>
+      <transition id="trans_22"/>
+      <transition id="trans_23"/>
+      <transition id="trans_25"/>
+      <transition id="trans_26"/>
+      <transition id="trans_27"/>
+      <transition id="trans_28"/>
+      <transition id="trans_29"/>
+      <transition id="trans_3"/>
+      <transition id="trans_30"/>
+      <transition id="trans_31"/>
+      <transition id="trans_32"/>
+      <transition id="trans_4"/>
+      <transition id="trans_5"/>
+      <transition id="trans_6"/>
+      <transition id="trans_7"/>
+      <transition id="trans_8"/>
+      <transition id="trans_9"/>
+      <arc id="arc_15" source="trans_15" target="place_40">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_17" source="trans_32" target="place_32">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_19" source="pstart" target="trans_15">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_22" source="trans_21" target="place_21">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_23" source="trans_8" target="place_25">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_27" source="trans_0" target="place_47">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_3" source="place_35" target="trans_16">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_39" source="place_41" target="trans_17">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_4" source="place_40" target="trans_9">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_48" source="trans_28" target="place_5">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_49" source="trans_16" target="place_37">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_54" source="trans_25" target="place_3">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_55" source="place_32" target="trans_20">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_56" source="trans_17" target="place_30">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_6" source="trans_21" target="place_41">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_61" source="place_39" target="trans_28">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_62" source="place_30" target="trans_8">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_64" source="place_33" target="trans_18">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_66" source="trans_9" target="place_28">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_67" source="trans_15" target="place_54">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_71" source="trans_15" target="place_39">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_73" source="place_21" target="trans_14">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_76" source="trans_1" target="place_2">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_83" source="trans_21" target="place_35">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_9" source="trans_10" target="place_33">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_91" source="trans_14" target="place_56">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_93" source="trans_18" target="place_12">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="arc_95" source="place_37" target="trans_10">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P27 to trans_3" source="P27" target="trans_3">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P28 to trans_12" source="P28" target="trans_12">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P29 to trans_7" source="P29" target="trans_7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P30 to trans_26" source="P30" target="trans_26">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P31 to trans_7" source="P31" target="trans_7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P32 to trans_27" source="P32" target="trans_27">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P33 to trans_7" source="P33" target="trans_7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P34 to trans_21" source="P34" target="trans_21">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P35 to trans_19" source="P35" target="trans_19">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P36 to trans_2" source="P36" target="trans_2">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P37 to trans_30" source="P37" target="trans_30">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P40 to trans_23" source="P40" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P41 to trans_23" source="P41" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P42 to trans_23" source="P42" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P43 to trans_23" source="P43" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P44 to trans_23" source="P44" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_12 to trans_6" source="place_12" target="trans_6">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_17 to trans_25" source="place_17" target="trans_25">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_25 to trans_6" source="place_25" target="trans_6">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_28 to trans_11" source="place_28" target="trans_11">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_2 to trans_13" source="place_2" target="trans_13">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_34 to trans_7" source="place_34" target="trans_7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_3 to trans_29" source="place_3" target="trans_29">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_42 to trans_23" source="place_42" target="trans_23">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_44 to trans_32" source="place_44" target="trans_32">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_47 to trans_5" source="place_47" target="trans_5">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_54 to trans_0" source="place_54" target="trans_0">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_56 to trans_4" source="place_56" target="trans_4">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_5 to trans_31" source="place_5" target="trans_31">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_7 to trans_1" source="place_7" target="trans_1">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="place_8 to trans_6" source="place_8" target="trans_6">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_11 to place_42" source="trans_11" target="place_42">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_12 to P29" source="trans_12" target="P29">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_13 to P44" source="trans_13" target="P44">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_15 to place_17" source="trans_15" target="place_17">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_15 to place_44" source="trans_15" target="place_44">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_15 to place_7" source="trans_15" target="place_7">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_19 to P27" source="trans_19" target="P27">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_19 to P28" source="trans_19" target="P28">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_19 to P30" source="trans_19" target="P30">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_19 to P32" source="trans_19" target="P32">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_20 to P42" source="trans_20" target="P42">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_23 to P35" source="trans_23" target="P35">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_26 to P31" source="trans_26" target="P31">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_27 to P33" source="trans_27" target="P33">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_29 to P41" source="trans_29" target="P41">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_2 to P37" source="trans_2" target="P37">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_30 to pend" source="trans_30" target="pend">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_31 to P43" source="trans_31" target="P43">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_3 to place_34" source="trans_3" target="place_34">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_4 to place_8" source="trans_4" target="place_8">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_5 to P40" source="trans_5" target="P40">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_6 to P36" source="trans_6" target="P36">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_7 to P34" source="trans_7" target="P34">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="P34 to trans_22" source="P34" target="trans_22">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+      <arc id="trans_22 to P35" source="trans_22" target="P35">
+        <name>
+          <text>1</text>
+        </name>
+        <arctype>
+          <text>normal</text>
+        </arctype>
+      </arc>
+    </page>
+  </net>
+</pnml>
